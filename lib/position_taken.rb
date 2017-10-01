@@ -3,4 +3,5 @@ def position_taken?(board, index)
   #Check for an empty board is equal to " "
   board[index] == " "
   board[index] == ""
+  board[index] != ""
 end
